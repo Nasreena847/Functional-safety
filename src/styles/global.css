@@ -1,0 +1,31 @@
+/* CSS reference: https://www.wix.com/velo/reference/$w/styling-elements-with-css */
+ 
+/* These CSS styles will be applied globally to every page of this site. Write your CSS here, e.g.: */
+
+/*  Change button background color to red: */
+/* .button {
+    background-color: red;
+} */
+#horizontalMenu1 {
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.show {
+    animation: fadeIn 0.2s ease forwards;
+    animation-delay: 2s; /* Adjust the delay time as needed */
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+@media (max-width: 600px){
+    #text49{
+        display: none;
+    }
+}
