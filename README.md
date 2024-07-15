@@ -2,6 +2,8 @@
 
 This project is a comprehensive functional safety solution developed using Wix Studio, designed to ensure that safety-critical systems operate reliably and comply with stringent industry standards.
 
+[functional-safety](https://github.com/Nasreena847/Functional-safety/blob/main/src/images/Screenshot%20(120).png)
+
 ## Features
 - **Robust Design**: Engineered to meet the highest safety standards.
 - **Seamless Integration**: Easily integrates with existing systems.
