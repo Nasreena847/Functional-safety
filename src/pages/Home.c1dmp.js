@@ -1,5 +1,7 @@
 // Velo API Reference: https://www.wix.com/velo/reference/api-overview/introduction
 
+import wixWindow from 'wix-window';
+
 $w.onReady(function () {
     // Initially hide the menu
     $w('#horizontalMenu1').hide();
@@ -9,10 +11,6 @@ $w.onReady(function () {
         $w('#horizontalMenu1').show('fade', { duration: 200 });
     }, 2000); // Adjust the delay time as needed
 });
-
-
-
-import wixWindow from 'wix-window';
 
 
 $w.onReady(function () {
